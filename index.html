@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cafe Jorden- Forside</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafe Jorden tilbyder en international menu, med for eksempel mexicansk mad, burger, seafood.
+Desuden tibydes der også drinks og andre lækre forfriskninger.">
+    <script src="https://use.fontawesome.com/8be1995b9f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <script src="css/sss.min.js"></script>
+    <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
+
+   
+</head>
+
+<body>
+    <div id="content">
+        <div id="header">
+            <div id="logo">
+                <a href="index.html"><img src="images/rooftop_logo.png" alt="Salling Rooftop logo"></a>
+            </div>
+            <nav class="topnav" id="myTopnav">
+                <a id="menuhide">MENU</a>
+                <a href="menukort.html">MENUKORT</a>
+                <a href="galleri.html">GALLERI</a>
+                <a href="event.html">EVENT</a>
+                <a href="kontakt-os.html">KONTAKT</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </nav>
+        
+        </div>
+        <div class="slider">
+            <a href="galleri.html"><img src="images/slideshow/slide1.jpg" alt="Den udendørs front af indgangen på Cafe Jorden"></a>
+            <a href="galleri.html"><img src="images/slideshow/slide2.jpg" alt="Behagelige sidderpladser i et rustikt område på stueetagen på Cafe Jorden" ></a> 
+            <a href="galleri.html"><img src="images/slideshow/slide3.jpg" alt="Behagelige sidderpladser i et rustikt område på første sal på Cafe Jorden" ></a>
+            <a href="galleri.html"><img src="images/slideshow/slide4.jpg" alt="Behagelige sidderpladser i et rustikt område på første sal på Cafe Jorden" ></a>
+
+        </div>
+
+        <h1>Velkommen til Salling Rooftop</h1>
+        <p>Aarhus Kulturby 2017 byder velkommen til den første tagterasse/park. En unik, kulturel og oplevelsesrig seværdighed. Den byder på mad, drikke og hygge på højeste plan. </p>
+
+
+      
+        <div id="footer">
+            <div class="flex-footer">
+                <div id="hide" class="footer-item"> <b>KONTAKT OS</b><br>
+                    <p><i class="fa fa-location-arrow" aria-hidden="true"></i>&nbsp;&nbsp;F. Salling A/S, Søndergade 27, 8000 Aarhus C </p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+45 87 78 60 00 </p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp; Rooftop@salling.dk</p>
+                </div>
+                <div id="hide" class="footer-item">
+                    <b>ÅBNINGSTIDER</b><br><br>
+                    <table>
+                        <tr>
+                            <td>Mandag - Torsdag</td>
+                            <td>08:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Fredag</td>
+                            <td>08:00 - 20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Lørdag</td>
+                            <td>08:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Søndag</td>
+                            <td>10:00 - 18:00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer-item"><b>FØLG OS</b><br><br>
+                    <a href="https://www.facebook.com/cafejorden/" target="_blank"><img src="images/facebook1.png" class="socialicon" alt="facebook icon"></a>&nbsp;
+                    <a href="https://www.instagram.com/explore/locations/542693/cafe-jorden/?hl=da" target="_blank"><img src="images/instagram1.png" alt="instagram icon" class="socialicon"></a>&nbsp;
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter1.png" class="socialicon" alt="twitter icon"></a>&nbsp;
+                </div>
+
+            </div>
+        </div>
+  
+  </div>
+
+
+
+	    <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+
+            </script>
+
+	 <script>
+        jQuery(function($) {
+            $('.slider').sss();
+        });
+
+    </script>
+</body>
+
+</html>
